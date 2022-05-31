@@ -1,0 +1,18 @@
+<main class="wrapper">
+  <section *ngFor="let bear of bears; let i = index">
+    <div class="card" style="width: 18rem;" *ngIf="i < 6">
+      <img [src]="bear.image_url" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{ bear.name }}</h5>
+        <p class="card-text">{{bear.tagline}}</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li *ngFor="let ingredient of bear.ingredients.malt.slice(0,1); let j" class="list-group-item">
+          {{ingredient.name}}
+        </li>
+      </ul>
+    </div>
+    <i class="fas fa-star fa-2x" [attr.data-bear-id]="bear.id" (click)="addToFavorite($event)"></i>
+  </section>
+</main>
+<app-page-swapper></app-page-swapper>

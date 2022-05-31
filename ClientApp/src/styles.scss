@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+$gray-color: #6c757d;
+
+.gray-color-background {
+  background: $gray-color;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';

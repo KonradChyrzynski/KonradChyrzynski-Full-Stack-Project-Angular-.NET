@@ -1,0 +1,17 @@
+<form [formGroup]='form' (ngSubmit)="onSubmit()" novalidate>
+    <label for="userName">Login</label>
+    <input class="form-control" formControlName="userName" id="userName" type="Text">
+    <label  for="eMail">E-mail</label>
+    <input class="form-control" formControlName="eMail" id="eMail"type="text">
+    <label for="phone">Phone number:</label>
+    <input class="form-control" formControlName="phone" id="phone" type="text" (keypress)="allowToEnterOnlyNumbers($event)">
+    <label for="male" type="checkbox">Male: 
+        <input formControlName="gender" id="male" type="radio" name="gender" value="male">
+    </label>
+    <label class="gender-label-female" for="female" type="checkbox">Female:
+         <input formControlName="gender" id="female" type="radio" name="gender" value="female">
+    </label>
+    <label for="password">Password</label>
+    <input class="form-control" formControlName="password" id="password" type="password">
+    <button class="btn btn-light" type="submit" >Sign In</button>
+</form>

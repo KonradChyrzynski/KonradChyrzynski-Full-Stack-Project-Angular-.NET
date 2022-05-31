@@ -1,0 +1,29 @@
+.wrapper{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#navbarTogglerDemo02{
+    justify-content: space-between;
+}
+
+
+.form-inline{
+    flex-direction: row;
+    display: flex;
+
+    input{
+        margin-right: 15px;
+    }
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #e9ecef !important;
+}
+
+.sign-in{
+    margin-right: 20px;
+}

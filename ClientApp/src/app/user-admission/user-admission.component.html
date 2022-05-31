@@ -1,0 +1,11 @@
+<main>
+    <section class="gray-color-background">
+        
+    </section>
+    <section>
+        <app-sign-in class="form" #signIn *ngIf="url=='signin'; else elseLogin"></app-sign-in>
+        <ng-template #elseLogin>
+            <app-login class="form" ></app-login>
+        </ng-template>
+    </section>
+</main>
