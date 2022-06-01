@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "SvsnlBSoVT0VmqHvd8MhHFMN69CS7b+OI9g5oHpz69YZFGOD873HAMBoOhNf9QwIpl/lz+RSXUvHZJrz6l2mIA==",
+  "dgSpecHash": "3lO+pH/3RSLM0wxnlEvvys7le8hBjOIS5TDMSPEEkfSN/4daGp4qDbXQg39ctBgo21+tyDwxdPIKvfX0pd9e2Q==",
   "success": true,
-  "projectFilePath": "F:\\AnularFormAndUserAuth\\BackendForPunkApi\\BackendForPunkApi\\BackendForPunkApi.csproj",
+  "projectFilePath": "F:\\AnularFormAndUserAuth\\Backend\\BackendForPunkApi\\BackendForPunkApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\48796\\.nuget\\packages\\fluentemail.core\\3.0.2\\fluentemail.core.3.0.2.nupkg.sha512",
+    "C:\\Users\\48796\\.nuget\\packages\\fluentemail.smtp\\3.0.2\\fluentemail.smtp.3.0.2.nupkg.sha512",
     "C:\\Users\\48796\\.nuget\\packages\\humanizer.core\\2.13.14\\humanizer.core.2.13.14.nupkg.sha512",
     "C:\\Users\\48796\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\48796\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
